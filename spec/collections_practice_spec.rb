@@ -26,7 +26,7 @@ describe 'collections practice' do
   # Question 4
   describe '#swap_elements' do
     it 'swap the second and third elements of an array' do
-      expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
+      expect(swap_elements(["blake", "ashley", "scott"], 1, 2)).to eq(["blake", "scott", "ashley"])
     end
   end
 
